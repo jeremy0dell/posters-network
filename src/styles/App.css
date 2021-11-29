@@ -1,0 +1,33 @@
+.app-container, .app-container > div {
+    background-color: #121212;
+}
+
+div.tooltip {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    /* width: 68px; */
+    height: 32px;
+    padding: 2px;
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    line-height: 26px;
+    font: 16px "Roboto";
+    background: rgb(212, 231, 255, 0.8);
+    border: 0px;
+    border-radius: 4px;
+    border: 1px solid white;
+    pointer-events: none;
+}
+
+span,a {
+    display: contents;
+}
+
+a:visited {
+    color: #c100ff;
+}

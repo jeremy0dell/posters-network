@@ -1,0 +1,234 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Stardos Stencil";
+}
+
+.title {
+    font-size: 68px;
+    z-index: 999;
+}
+
+.subtitle {
+    font-size: 42px;
+    text-align: center;
+    margin: 0px 60px;
+    z-index: 999;
+}
+
+.flier {
+	pointer-events: none;
+}
+
+.flier {
+/* Adjust animation duration to change the element’s speed */
+    pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%);
+	position: absolute;
+	animation-delay: 1s;
+	z-index: 1;
+}
+
+.flier0 {
+    animation: fly 80s linear infinite;
+}
+
+.flier1 {
+    animation: fly1 100s linear infinite;
+}
+
+.flier2 {
+    animation: fly2 80s linear infinite;
+}
+
+.flier3 {
+    animation: fly3 140s linear infinite;
+}
+
+.flier4 {
+    animation: fly4 75s linear infinite;
+}
+
+.flier5 {
+    animation: fly5 150s linear infinite;
+}
+
+.flier6 {
+    animation: fly6 100s linear infinite;
+}
+
+.flier7 {
+    animation: fly7 110s linear infinite;
+}
+
+.flier8 {
+    animation: fly8 95s linear infinite;
+}
+
+ /* Keyframe values control where the element will begin
+    and end its trajectory across the screen. Each rule
+    represents a path the element follows across the screen. */
+
+
+@keyframes fly {
+    0% {
+        transform: translate(0, 110vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(110vw, 0); opacity: 0.5;
+    }
+    100% {
+        transform: translate(0, 110vh); opacity: 0.5;
+    }
+}
+
+@keyframes fly1 {
+    0% {
+        transform: translate(95vw, 10vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(10vw, 95vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(95vw, 10vh); opacity: 0.5;
+    }
+}
+
+@keyframes fly2 {
+    0% {
+        transform: translate(0vw,50vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(100vw, 25vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(0vw, 45vh); opacity: 0.5;
+    }
+}
+
+@keyframes fly3 {
+    0% {
+        transform: translate(0vw,0vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(95vw, 85vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(0vw, 0vh); opacity: 0.5;
+    }
+}
+
+/* @keyframes fly4 {
+    0% {
+        transform: translate(100vw,50vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(0vw, 85vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(100vw, 50vh); opacity: 0.5
+    }
+} */
+
+@keyframes fly4 {
+    0% {
+        transform: translate(50vw, 100vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(100vw, 50vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(50vw, 100vh); opacity: 0.5;
+    }
+}
+
+@keyframes fly5 {
+    0% {
+        transform: translate(60vw, 0vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(25vw, 100vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(60vw, 0vh); opacity: 0.5;
+    }
+}
+
+@keyframes fly6 {
+    0% {
+        transform: translate(101vw, 10vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(0vw, 10vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(101vw, 10vh); opacity: 0.5;
+    }
+}
+
+@keyframes fly7 {
+    0% {
+        transform: translate(20vw, 0vh); opacity: 0.5;
+    }
+    50% {
+        transform: translate(20vw, 100vh); opacity: 0.5;
+    }
+    100% {
+        transform: translate(20vw, 1vh); opacity: 0.5;
+    }
+}
+
+@keyframes fly8 {
+    0% {
+        transform: translate(10vw, 60vh); opacity: 0.6;
+    }
+    50% {
+        transform: translate(101vw, 60vh); opacity: 0.6;
+    }
+    100% {
+        transform: translate(10vw, 60vh); opacity: 0.6;
+    }
+}
+
+/* @keyframes fly {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-200%) translateY(99vh);
+	}
+
+	15% {
+		transform: translateX(99vw) translateY(-99%);
+	}
+
+	15.001%, 18% {
+		transform: translateX(99vw) translateY(-30%);
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh);
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-99%);
+	}
+
+	65% {
+		transform: translateX(99vw) translateY(50vh);
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%);
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(99vh);
+	}
+} */

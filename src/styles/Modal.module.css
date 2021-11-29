@@ -1,0 +1,4 @@
+.poster:hover {
+    filter: brightness(113%);
+    box-shadow: 6px 6px 20px 10px rgb(255 255 255 / 10%);
+}
